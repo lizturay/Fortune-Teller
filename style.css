@@ -62,3 +62,39 @@ body{
     cursor: pointer;
     background-image: url(images/giphy.gif);
 }
+
+/*-------------footer-------------*/
+.copyright {
+    background-color: #18171D;
+    height: 120px;
+    width: 100%;
+    width: expression(document.body.clientWidth <= 1200? "1200px": "auto");
+    min-width: 600px;
+  }
+  
+  footer .copyright .left {
+    height: 70px;
+    width: 300px;
+    padding-top: 25px;
+    margin-left: 10%;
+  }
+  
+  footer .copyright .left img {
+    float: left;
+    height: 100%;
+  }
+  
+  footer .copyright .left p {
+    display: flexbox;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', 'Josefin Sans';
+    font-weight: 600;
+    height: 30px;
+    line-height: 60px;
+  }
+  
+  footer .copyright .left p span {
+    color: #B4B4B4;
+  }
+  
